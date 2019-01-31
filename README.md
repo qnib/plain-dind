@@ -1,2 +1,2 @@
-# uplain-dind
+# plain-dind
 Alpine image to run Docker-in-Docker
