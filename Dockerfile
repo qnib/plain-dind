@@ -1,3 +1,3 @@
-FROM qnib/alplain-init:2018-08-06_10-50_df02a2f817d1
+FROM docker:stable-dind
 
-RUN apk --no-cache add docker
+COPY daemon.json /etc/docker/
