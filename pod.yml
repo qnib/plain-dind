@@ -5,7 +5,7 @@ metadata:
 spec:
  containers:
    - name: docker
-     image: qnib/plain-dind:2019-01-31.1
+     image: qnib/plain-dind:2019-02-01.1
      command:
        - dockerd
        - "--debug"
